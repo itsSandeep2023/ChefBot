@@ -84,7 +84,7 @@ export default function App() {
       </style>
 
       <h1 className="text-5xl font-extrabold pb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#FF6347] to-[#FFA07A]">
-        Food Guide
+        ChefBot
       </h1>
 
       <div
@@ -93,7 +93,8 @@ export default function App() {
       >
         {history.length === 0 && (
           <div className="flex justify-center items-center h-full text-gray-500 italic">
-            Ask me for recipes, cooking tips, or ingredient substitutes!
+            Hey, here is your ChefBot. Ask me anything about ingredients,
+            recipes, or cooking techniques—let's make something delicious!
           </div>
         )}
         {history.map((item, index) => (
